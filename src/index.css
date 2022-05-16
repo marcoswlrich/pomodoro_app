@@ -9,6 +9,7 @@ body {
   font-family: sans-serif;
   color: #c9ccea;
   background: rgb(39,42,85);
+  background: radial-gradient(circle, #1E2140 0%, #151932 65%);
   transition: background-color 300ms ease-in-out;
   line-height: 1.5
 }
@@ -51,11 +52,11 @@ body {
 }
 
 .pomodoro button {
-  background: #41e1ba;
+  color:#efefef;
+  background: #0C0E1B;
   border: none;
   cursor: pointer;
   padding: 10px 25px;
-  color: #000;
   transition: background-color 300ms ease-in-out;
   margin: 20px auto;
 }
