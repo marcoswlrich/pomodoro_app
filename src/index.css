@@ -6,9 +6,8 @@
 }
 
 body {
-  font-family: sans-serif;
-  color: #c9ccea;
-  background: rgb(39,42,85);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #e9ecef;
   background: radial-gradient(circle, #1E2140 0%, #151932 65%);
   transition: background-color 300ms ease-in-out;
   line-height: 1.5
@@ -20,7 +19,7 @@ body {
 }
 
 .working {
-  background: #EF5D50;
+  background: #293241;
 }
 
 .hidden {
@@ -28,7 +27,7 @@ body {
 }
 
 .pomodoro {
-  background: #fff;
+  background: #3d405b;
   margin: 50px 20px;
   padding: 20px;
   border-radius: 4px;
@@ -53,7 +52,7 @@ body {
 
 .pomodoro button {
   color:#efefef;
-  background: #0C0E1B;
+  background: #98c1d9;
   border: none;
   cursor: pointer;
   padding: 10px 25px;
@@ -62,7 +61,7 @@ body {
 }
 
 .working .pomodoro button {
-  background: #EF5D50;
+  background: #ee6c4d;
   color: #fff;
 }
 
